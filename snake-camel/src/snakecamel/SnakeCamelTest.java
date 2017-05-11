@@ -19,7 +19,7 @@ public class SnakeCamelTest {
 	@Test
 	public void CamelToSnakeのテストに成功するか(){
 		SnakeCamelUtil sc = new SnakeCamelUtil();
-		String actual = sc.camelToSnakecase("iHaveAnApple");
+		String actual = sc.camelToSnakecase("IHaveAnApple");
 		String pico = "i_have_an_apple";
 		
 		assertThat(actual, is(pico));		
